@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'ProximaNovaA-Light';
+  src: url('../fonts/ProximaNovaA-Light.eot');
+  src: url('../fonts/ProximaNovaA-Light.woff2') format('woff2'),
+       url('../fonts/ProximaNovaA-Light.woff') format('woff'),
+       url('../fonts/ProximaNovaA-Light.ttf') format('truetype'),
+       url('../fonts/ProximaNovaA-Light.svg#ProximaNovaA-Light') format('svg'),
+       url('../fonts/ProximaNovaA-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaA-Regular';
+  src: url('../fonts/ProximaNovaA-Regular.eot');
+  src: url('../fonts/ProximaNovaA-Regular.woff2') format('woff2'),
+       url('../fonts/ProximaNovaA-Regular.woff') format('woff'),
+       url('../fonts/ProximaNovaA-Regular.ttf') format('truetype'),
+       url('../fonts/ProximaNovaA-Regular.svg#ProximaNovaA-Regular') format('svg'),
+       url('../fonts/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Black';
+  src: url('../fonts/ProximaNova-Black.eot');
+  src: url('../fonts/ProximaNova-Black.woff2') format('woff2'),
+       url('../fonts/ProximaNova-Black.woff') format('woff'),
+       url('../fonts/ProximaNova-Black.ttf') format('truetype'),
+       url('../fonts/ProximaNova-Black.svg#ProximaNova-Black') format('svg'),
+       url('../fonts/ProximaNova-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+       url('../fonts/ProximaNova-Bold.woff') format('woff'),
+       url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+       url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg'),
+       url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="25px" viewBox="0 0 66 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="66" height="25"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill-opacity="0.01" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)">
+                <path d="M1075,7.5 C1075,3.527 1071.908,0.284 1068,0.025 L1068,0 L7,0 L7,0.025 C3.258,0.272 0.272,3.258 0.025,7 L0,7 L0,25 L1067,25 L1068,25 L1075,25 L1075,8 L1074.975,8 C1074.986,7.834 1075,7.669 1075,7.5" id="Fill-1" fill-opacity="0.01" fill="#FFFFFF"></path>
+                <path d="M22.5,12.5 C22.5,15.261 20.262,17.5 17.5,17.5 C14.738,17.5 12.5,15.261 12.5,12.5 C12.5,9.739 14.738,7.5 17.5,7.5 C20.262,7.5 22.5,9.739 22.5,12.5" id="Fill-3" fill-opacity="0.8" fill="#999999"></path>
+                <path d="M37.5,12.5 C37.5,15.261 35.262,17.5 32.5,17.5 C29.738,17.5 27.5,15.261 27.5,12.5 C27.5,9.739 29.738,7.5 32.5,7.5 C35.262,7.5 37.5,9.739 37.5,12.5" id="Fill-5" fill-opacity="0.8" fill="#999999"></path>
+                <path d="M51.0352,8.9644 C52.9882,10.9174 52.9882,14.0834 51.0352,16.0354 C49.0832,17.9884 45.9172,17.9884 43.9652,16.0354 C42.0122,14.0834 42.0122,10.9174 43.9652,8.9644 C45.9172,7.0114 49.0832,7.0114 51.0352,8.9644" id="Fill-7" fill-opacity="0.8" fill="#999999"></path>
+            </g>
+        </g>
+    </g>
+</svg>

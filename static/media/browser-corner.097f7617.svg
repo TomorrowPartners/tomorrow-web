@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="25px" viewBox="0 0 60 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>browser-corner</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="browser-corner" fill-rule="nonzero">
+            <path d="M7.5,0 C3.375,0 0,3.375 0,7.5 L0,25 L7.5,25 L60,25 L60,0 L7.5,0 Z" id="Fill-1" fill="#DBDBDB"></path>
+            <path d="M22.5,12.5 C22.5,15.261 20.262,17.5 17.5,17.5 C14.738,17.5 12.5,15.261 12.5,12.5 C12.5,9.739 14.738,7.5 17.5,7.5 C20.262,7.5 22.5,9.739 22.5,12.5" id="Fill-3" fill="#C9C9C9"></path>
+            <path d="M37.5,12.5 C37.5,15.261 35.262,17.5 32.5,17.5 C29.738,17.5 27.5,15.261 27.5,12.5 C27.5,9.739 29.738,7.5 32.5,7.5 C35.262,7.5 37.5,9.739 37.5,12.5" id="Fill-5" fill="#C9C9C9"></path>
+            <path d="M51.0352,8.9644 C52.9882,10.9174 52.9882,14.0834 51.0352,16.0354 C49.0832,17.9884 45.9172,17.9884 43.9652,16.0354 C42.0122,14.0834 42.0122,10.9174 43.9652,8.9644 C45.9172,7.0114 49.0832,7.0114 51.0352,8.9644" id="Fill-7" fill="#C9C9C9"></path>
+        </g>
+    </g>
+</svg>

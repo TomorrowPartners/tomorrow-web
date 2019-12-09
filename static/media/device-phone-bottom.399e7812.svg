@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="275px" height="36px" viewBox="0 0 275 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>device-phone-bottom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="275" height="36"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="device-phone-bottom">
+            <g id="Group">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill-opacity="0.01" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(0.000000, -533.000000)">
+                        <path d="M250,0 L25,0 C11.193,0 0,11.193 0,25 L0,543 C0,556.807 11.193,568 25,568 C26.016,568 27.016,567.933 28,567.814 L28,568 L250,568 C263.807,568 275,556.807 275,543 L275,25 C275,11.193 263.807,0 250,0" id="Fill-1" fill="#C7C9CA" opacity="0.01"></path>
+                        <path d="M185,553 L90,553 C88.896,553 88,553.896 88,555 C88,556.104 88.896,557 90,557 L185,557 C186.104,557 187,556.104 187,555 C187,553.896 186.104,553 185,553" id="Fill-9" fill-opacity="0.8" fill="#878787"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

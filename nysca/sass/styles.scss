@@ -1,0 +1,210 @@
+// Grid breakpoints
+//
+// Define the minimum and maximum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$enable-shadows: true !default;
+$brand-primary: #0f739d !default;
+$brand-secondary: #5f1910 !default;
+$grey-dark : #222222;
+$grey-light : #999999;
+$grey : #747474;
+$grey-lightest: #f4f4f4;
+
+$font-family-sans-serif:    'ProximaNovaA-Regular', Helvetica, Arial, sans-serif !default;
+$font-family-serif:         "Georgia", serif !default;
+
+$headings-font-family:      $font-family-sans-serif !default;
+$body-color:                #676767 !default;
+$font-size-root:            16px !default;
+$line-height:               1.4 !default;
+
+$font-family-base:          $font-family-sans-serif !default;
+
+$link-color:                 $brand-primary !default;
+$link-hover-color:           darken($link-color, 15%) !default;
+$link-hover-decoration:      none !default;
+
+@mixin clearfix() {
+  &::after {
+    content: '';
+    clear: both;
+  }
+}
+
+@mixin placeholder($color: $input-color-placeholder) {
+  // Firefox
+  &::-moz-placeholder {
+    color: $color;
+    opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+  }
+  &:-ms-input-placeholder { color: $color; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: $color; } // Safari and Chrome
+}
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  // IE8 filter
+  $opacity-ie: ($opacity * 100);
+  filter: alpha(opacity=$opacity-ie);
+}
+@mixin border-radius($radius: 0) {
+  -moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+@mixin border-circle() {
+  @include border-radius(100%);
+}
+@mixin type($size: 12px, $line-height: 1) {
+  font-size: $size;
+  line-height: $line-height;
+}
+
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 720px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1280px
+) !default;
+
+
+// Grid containers
+// Define the maximum width of `.container` for different screen sizes.
+$container-max-widths: (
+  sm: 100%,
+  md: 620px,
+  lg: 960px,
+  xl: 960px
+) !default;
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+$grid-columns:               12 !default;
+$grid-gutter-width:          50px !default;
+
+
+@import "variables";
+@import "mixins";
+
+@import "normalize";
+@import "reboot";
+@import "grid";
+@import "images";
+@import "utilities";
+@import "utilities-responsive";
+
+@import "nysca/typography";
+@import "nysca/header";
+@import "nysca/footer";
+@import "nysca/login-widget";
+
+.menu-toggle {
+  outline: none !important;
+}
+
+.clear {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	/* many screen reader and browser combinations announce broken words as they would appear visually */
+	word-wrap: normal !important;
+}
+
+/* must have higher specificity than alternative color schemes inline styles */
+.site .skip-link {
+	background-color: #f1f1f1;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	color: #21759b;
+	display: block;
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	left: -9999em;
+	outline: none;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	text-transform: none;
+	top: -9999em;
+}
+
+.site .skip-link:focus {
+	clip: auto;
+	height: auto;
+	left: 6px;
+	top: 7px;
+	width: auto;
+	z-index: 100000;
+}
+
+button:focus {
+  outline: 1px dotted #000 !important;
+}
+
+body {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  overflow-x: hidden;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+.site-main > :last-child {
+	margin-bottom: 0;
+}
+
+a {
+  outline: none !important;
+  text-decoration: none;
+  &:hover {
+    color: $brand-primary;
+    text-decoration: underline;
+  }
+}
+em {
+  font-style: italic;
+}
+
+/**
+ * S T Y L E G U I D E
+ * ---------------------------------------
+ */
+
+#main {
+  position: relative;
+  padding: 80px 0;
+  @include media-breakpoint-down(md) {
+    padding: 50px 0;
+  }
+  @include media-breakpoint-down(sm) {
+    padding: 25px 0;
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="46px" viewBox="0 0 38 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>map_marker_white_dot</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.306468737 38 0.306468737 38 46 0 46"></polygon>
+    </defs>
+    <g id="Contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact-|-R6V3" transform="translate(-464.000000, -3585.000000)">
+            <g id="Group-4" transform="translate(54.000000, 3508.000000)">
+                <g id="map_marker_white_dot" transform="translate(410.000000, 77.000000)">
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M32.4349,5.85005696 C25.0147667,-1.54156224 12.9852333,-1.54156224 5.5651,5.85005696 C-1.85503333,13.2404144 -1.85503333,25.2249823 5.5651,32.6166015 L19.0006333,46.0005047 L32.4349,32.6166015 C39.8550333,25.2249823 39.8550333,13.2404144 32.4349,5.85005696" id="Fill-1" fill="#6B9ADB" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M26,19 C26,22.8654 22.8654,26 19,26 C15.1346,26 12,22.8654 12,19 C12,15.1346 15.1346,12 19,12 C22.8654,12 26,15.1346 26,19" id="Fill-4" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
